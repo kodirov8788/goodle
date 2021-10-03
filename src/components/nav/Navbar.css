@@ -1,0 +1,72 @@
+.nav {
+  background-color: #f6f6f6;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__container {
+  width: 85%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 218px;
+  background-color: #faad3d;
+  height: 50px;
+  border-radius: 5px;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 0.9;
+  transition: all 0.25s ease;
+}
+.nav__categories:hover {
+  opacity: 1;
+}
+.nav__categories span {
+  font-size: 26px;
+}
+.nav__seperator {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5em;
+}
+.nav__Collection {
+  display: flex;
+  list-style: none;
+}
+.nav__Collection li {
+  padding-right: 1.5em;
+}
+.nav__Collection li a:hover {
+  color: #faad3d;
+  transition: all 0.25s ease;
+}
+.nav__Collection li a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav__searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.nav__searchBar input {
+  font-size: 14px;
+  border: none;
+}
+.nav__searchBar svg {
+  font-weight: 900;
+}
